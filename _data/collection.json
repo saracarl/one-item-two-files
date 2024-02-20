@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "one item two files" ] },
+    "summary": { "en": [ "a test of a manifest that has multiple canvases, each with a different file.  The range structure covers both files, as do the annotations." ] },
+    "items": [
+    ]
+}
