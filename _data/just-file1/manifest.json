@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://saracarl.github.io/one-item-two-files/just-file1/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "just file1" ] },
+    "items": [
+      {
+        "id": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 1004,
+        "items": [
+          {
+            "id": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://norman.hrc.utexas.edu/CDMmedia/p15878coll1/34.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 1004
+                },
+                "target": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
