@@ -1,0 +1,163 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://saracarl.github.io/one-item-two-files/annotations/just-file1-canvas-1-discussion.json",
+  "type": "AnnotationPage",
+  "label": "Discussion",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "just-file1-canvas-1-discussion-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "The speakers begin to ask questions and make comments",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://saracarl.github.io/one-item-two-files/just-file1/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "354.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "just-file1-canvas-1-discussion-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Explicit language",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://saracarl.github.io/one-item-two-files/just-file1/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "950.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "just-file1-canvas-1-discussion-annotation-2.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Racial slur",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://saracarl.github.io/one-item-two-files/just-file1/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "967.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "just-file1-canvas-1-discussion-annotation-3.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Explicit language",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://saracarl.github.io/one-item-two-files/just-file1/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "990.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "just-file1-canvas-1-discussion-annotation-4.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Explicit language",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://saracarl.github.io/one-item-two-files/just-file1/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "999.0"
+        }
+      }
+    }
+  ]
+}

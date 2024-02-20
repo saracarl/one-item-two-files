@@ -8,6 +8,24 @@
         "id": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/canvas",
         "type": "Canvas",
         "duration": 1004,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://saracarl.github.io/one-item-two-files/annotations/just-file1-canvas-1-introduction.json",
+            "label": {
+              "none": ["Introduction"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://saracarl.github.io/one-item-two-files/annotations/just-file1-canvas-1-discussion.json",
+            "label": {
+              "none": ["Discussion"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://saracarl.github.io/one-item-two-files/just-file1/canvas-1/paintings",
